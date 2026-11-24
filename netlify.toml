@@ -1,0 +1,5 @@
+# The Next.js app lives in a subfolder, so point Netlify at it.
+[build]
+  base = "grihum-farmhouse-main/frontend"
+  command = "npm install && npm run build"
+  publish = ".next"
